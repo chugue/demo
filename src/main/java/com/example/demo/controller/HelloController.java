@@ -19,7 +19,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        String name = "홍길동";
+        String name = "홍길동";git
         return "<h1>hello" + name + "</h1>";
     }
 
